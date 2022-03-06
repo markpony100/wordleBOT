@@ -4,7 +4,7 @@ from answer import dictionary #real_w
 import random
 real_w = dictionary
 pos_w = dictionary
-def set_ans(real_w):
+def rand_select(real_w):
     return random.choice(real_w)
 def letter_count(word):
     '''couting words return dict'''
@@ -42,7 +42,7 @@ def end_game(result):
 
 if __name__ =="__main__":
     condition = False
-    ans = set_ans(real_w)
+    ans = rand_select(real_w)
     print("wordle answer :",ans)
     while(condition==False):
         gue = guess(pos_w)
