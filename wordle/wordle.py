@@ -2,8 +2,8 @@ import sys
 sys.path.append('../data')
 from answer import dictionary #real_w
 import random
-real_w = dictionary
-pos_w = dictionary
+real_w = sorted(dictionary)
+pos_w =  sorted(dictionary)
 def rand_select(real_w):
     return random.choice(real_w)
 def letter_count(word):
