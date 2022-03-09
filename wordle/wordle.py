@@ -35,7 +35,7 @@ def word_compare(guess,target):
     return re
 def end_game(result):
     if len(set(result))==1 and result[0]=="2":
-        print("game ends!")
+        #print("game ends!")
         return True
     return False
 
