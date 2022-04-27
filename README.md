@@ -1,4 +1,4 @@
-# wordleBOT
-使用Entropy猜測wordle答案\n
-pip install -r requirements.txt\n
+# wordleBOT\
+使用Entropy猜測wordle答案\
+pip install -r requirements.txt\
 主程式在simulation.py
